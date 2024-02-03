@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-
 /* ===============   properties that applies on flex container   ===================================== */
 /* 
 container property :
@@ -23,8 +22,6 @@ align-content
   /* display: inline-flex; */
   display: flex;
 
-
-
   /* ============= flex-direction  ================ */
   /* flex-direction: row; */
   /* flex-direction: row-reverse; */
@@ -33,11 +30,9 @@ align-content
   /* flex-direction: row; */
   /* ============================================== */
 
-
-
   /* ==========  flex wrap  ================ */
   /* flex-wrap: nowrap; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
   /* flex-wrap: wrap; */
 
@@ -45,11 +40,9 @@ align-content
   /* height: 400px; */
   /* flex-wrap: wrap; */
   /* flex-wrap: wrap-reverse; */
-/* ========================================== */
+  /* ========================================== */
 
-
-
-/* ==================  flex flow : shorthand for flex-direction and flex-wrap =================== */
+  /* ==================  flex flow : shorthand for flex-direction and flex-wrap =================== */
   /* flex-flow: row nowrap; */
   /* flex-flow: row wrap; */
   /* flex-flow: row wrap-reverse; */
@@ -74,6 +67,28 @@ align-content
   /* justify-content: space-around; */
   /* justify-content: space-evenly; */
   /* ==================================================== */
+
+  /* =================== align-items ============== */
+  /* height: 800px; */
+
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  /* ==================================================== */
+
+  /* =================== align-content ============== */
+  height: 800px;
+  flex-wrap: wrap;
+
+  align-content: stretch;
+  align-content: flex-start;
+  align-items: flex-end;
+  align-content: center;
+  align-content: space-between;
+  align-content: space-around;
+  /* ==================================================== */
 }
 
 /* ====================================================================================================== */
@@ -85,12 +100,24 @@ align-content
 }
 .item-1 {
   background-color: #c5c646;
+
+  /* ======  for align items baseline ====== */
+  /* padding-bottom: 3rem; */
+  /* ======================================= */
 }
 .item-2 {
   background-color: #a94e11;
+
+  /* ======  for align items baseline ====== */
+  /* padding-bottom: 5rem; */
+  /* ======================================= */
 }
 .item-3 {
   background-color: #2d5d67;
+
+  /* ======  for align items baseline ====== */
+  /* font-size: 3rem; */
+  /* ======================================= */
 }
 .item-4 {
   background-color: #dea156;

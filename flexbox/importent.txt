@@ -4,5 +4,5 @@ flex-direction: [row, row-reverse, column, column-reverse]
 flex-wrap: [nowrap, wrap, wrap-reverse]
 flex-flow: [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-reverse]
 justify-content: [flex-start, flex-end, center, space-between, space-around, space-evenly]
-align-items
-align-content 
+align-items: [stretch, flex-start, flex-end, center, baseline]
+align-content: [stretch, flex-start, flex-end, center, space-between, space-around]

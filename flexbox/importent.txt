@@ -6,3 +6,12 @@ flex-flow: [row, row-reverse, column, column-reverse] [nowrap, wrap, wrap-revers
 justify-content: [flex-start, flex-end, center, space-between, space-around, space-evenly]
 align-items: [stretch, flex-start, flex-end, center, baseline]
 align-content: [stretch, flex-start, flex-end, center, space-between, space-around]
+
+
+child properties :
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
